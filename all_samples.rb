@@ -12,7 +12,7 @@
 #
 # --------------------------------------------------------------------------- #
 print("Playing all_samples.rb")
-print("From github.com/444B/sonic-pi")
+print("From github.com/the-virtual-machine/sonic-pi")
 use_random_seed 65535
 use_bpm 60
 

@@ -11,7 +11,7 @@
 # Reccomended to use with Lissajous, Spectrum and Stero scopes.
 # --------------------------------------------------------------------------- #
 print("Playing c_major_scale.rb")
-print("From github.com/444B/sonic-pi")
+print("From github.com/the-virtual-machine/sonic-pi")
 use_random_seed 65535
 use_bpm 30
 

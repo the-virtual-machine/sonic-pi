@@ -12,7 +12,7 @@
 # because Kalimba tends to be rather soft.
 # --------------------------------------------------------------------------- #
 print("Playing basic_random.rb")
-print("From github.com/444B/sonic-pi")
+print("From github.com/the-virtual-machine/sonic-pi")
 use_random_seed 65535
 use_bpm 60
 use_synth :kalimba

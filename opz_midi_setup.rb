@@ -11,12 +11,12 @@
 
 # --------------------------------------------------------------------------- #
 print("Playing opz-midi-setup.rb")
-print("From github.com/444B/sonic-pi")
+print("From github.com/the-virtual-machine/sonic-pi")
 use_random_seed 65535
 use_bpm 60
 
 live_loop :midi_piano do
-    use_real_time
-    note, velocity = sync "/midi:op-z_0:2/note_on"
-    synth :piano, note: note, amp: velocity / 127.0
-  end
+  use_real_time
+  note, velocity = sync "/midi:op-z_0:1/note_on"
+  synth :piano, note: note, amp: velocity / 127.0
+end

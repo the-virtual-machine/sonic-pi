@@ -14,7 +14,7 @@
 # times
 # --------------------------------------------------------------------------- #
 print("Playing random_c_major_scale.rb")
-print("From github.com/444B/sonic-pi")
+print("From github.com/the-virtual-machine/sonic-pi")
 use_random_seed 65535
 use_bpm 60
 use_synth :beep

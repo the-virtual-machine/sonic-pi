@@ -17,7 +17,7 @@ There are also some samples for [Hydra](https://hydra.ojack.xyz) in the respecti
 ## Usage
 1. Clone the repository:
     ```bash
-    git clone https://github.com/444B/sonic-pi.git
+    git clone https://github.com/the-virtual-machine/sonic-pi.git
     cd sonic-pi-scripts
     ```
 

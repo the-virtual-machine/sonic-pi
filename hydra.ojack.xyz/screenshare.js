@@ -1,18 +1,19 @@
 // ------------------------------------------------------------------------- //
 // Title: screenshare.js
 //
-// Date: 2024-05-30
+// Date: 2024-07-07
 // Unix: 1717089397
 // Author: the_virtual_machine
-// Licence: CC BY-SA 4.0 - creativecommons.org/licenses/by-sa/4.0
+// Licence: CC BY-NC-SA 4.0 - https://creativecommons.org/licenses/by-nc-sa/4.0/
 //
 // Description: Hydra code to share your screen and add some effects.
 // Run with CTRL+SHIFT+ENTER
 // ------------------------------------------------------------------------- //
 
 // Set higher resolution (e.g., Full HD 1920x1080)
-// setResolution(2880, 1800)
 // setResolution(1920, 1080)
+// setResolution(2880, 1800)
+// setResolution(1080, 1920)
 
 // Initialize the video capture
 s0.initScreen()

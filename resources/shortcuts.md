@@ -1,5 +1,27 @@
 # Sonic Pi Hidden Tricks
 
+## Live Loop Snippets
+
+1. **Live Loop**
+    - **Shortcut**: `ll`
+    - **Description**: Inserts a `live_loop` block.
+    ```ruby
+    live_loop : do
+
+    end
+    ```
+
+## Syntax Snippets
+
+1. **Do Block**
+    - **Shortcut**: `do`
+    - **Description**: Inserts a basic Ruby `do...end` block.
+    ```ruby
+    do
+
+    end
+    ```
+
 ## FX Snippets
 
 1. **Bitcrusher**
@@ -88,28 +110,6 @@
     - **Description**: Inserts a `wobble` effect block.
     ```ruby
     with_fx :wobble do
-
-    end
-    ```
-
-## Syntax Snippets
-
-1. **Do Block**
-    - **Shortcut**: `do`
-    - **Description**: Inserts a basic Ruby `do...end` block.
-    ```ruby
-    do
-
-    end
-    ```
-
-## Live Loop Snippets
-
-1. **Live Loop**
-    - **Shortcut**: `ll`
-    - **Description**: Inserts a `live_loop` block.
-    ```ruby
-    live_loop : do
 
     end
     ```

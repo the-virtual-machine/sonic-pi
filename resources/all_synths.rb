@@ -22,12 +22,13 @@ synths = synth_names
 # Iterate through each synth
 synths.each do |synth_name|
   # Use a comment to indicate the current synth
-  puts ("Playing Synth: #{synth_name}")
-  
+  puts ("Playing Synthe:")
+  puts ("#{synth_name}")
+
   # Play a simple pattern with the current synth
   use_synth synth_name
   play_pattern_timed [:C4, :E4, :G4, :B4], [0.5, 0.25, 0.75, 0.5], release: 0.4
-  
+
   # Sleep for clarity between synths
   sleep 2
 end

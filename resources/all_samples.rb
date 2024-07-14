@@ -23,15 +23,15 @@ sample_categories = sample_groups
 sample_categories.each do |category|
   # Get the list of samples in the category
   samples = sample_names category
-  
+
   # Iterate through each sample in the category
   samples.each do |sample_name|
     # Use a comment to indicate the current sample
-    puts "Playing Sample: #{sample_name}"
-    
+    puts ("Playing Sample:")
+    puts ("#{sample_name}")
     # Play the sample
     sample sample_name
-    
+
     # Sleep for clarity between samples
     sleep 4
   end

@@ -54,7 +54,7 @@ live_loop :arp, seed: 1, sync: :met1 do
   use_synth :beep
   tick
   notes = (scale :a6, :major_pentatonic).shuffle
-  play notes.look, amp: 1 release: 0.25, cutoff: 80, pan: [-0.5, 0.5].choose
+  play notes.look, amp: 1, release: 0.25, cutoff: 80, pan: [-0.5, 0.5].choose
   sleep 0.5
 end
 

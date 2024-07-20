@@ -26,8 +26,8 @@ content = f"""# {title}
 filename = f"{date_for_filename}-{title.lower().replace(' ', '-')}.md"
 
 # Create _drafts directory if not exists
-if not os.path.exists("posts/drafts"):
-    os.makedirs("posts/drafts")
+if not os.path.exists("thoughts/"):
+    os.makedirs("thoughts")
 
 # Write the content to a new file
 with open(filename, "w") as file:
